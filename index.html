@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - MyShifts</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/utilities.css" />
+    <link rel="stylesheet" href="../styles/mobile.css" />
+    <script src="../code/login.js" defer></script>
+  </head>
+  <body class="body__register__login__defaults small__font">
+    <div class="container__register__login mobile__form__width">
+      <h1>Welcome to MyShifts</h1>
+      <img src="../assets/logo.png" alt="" />
+
+      <form action="get">
+        <div>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="type here..."
+            class="container__text__inputs"
+          />
+        </div>
+
+        <span id="username__error"></span>
+
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="type here..."
+            class="container__text__inputs"
+          />
+        </div>
+
+        <span id="password__error"></span>
+
+        <a href="" id="forgot__pwd">Forgot Password?</a>
+        <input
+          class="container__register__login__input__btn"
+          type="button"
+          value="LOGIN"
+          id="login"
+        />
+      </form>
+      <p>
+        New here? <a href="../src/pages/register.html">Create an account</a>
+      </p>
+    </div>
+  </body>
+</html>

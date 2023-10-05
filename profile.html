@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile</title>
+    <link rel="icon" href="../../assets/logo.png" />
+    <link rel="stylesheet" href="../../styles/utilities.css" />
+    <link rel="stylesheet" href="../../styles/mobile.css" />
+    <script src="../../code/profile.js" defer></script>
+  </head>
+  <body class="body__pages_default">
+    <header>
+      <nav class="navbar">
+        <div>
+          <a class="pages__links" href="../pages/home.html">My Shifts</a>
+          <a class="pages__links" href="../pages/addshift.html">Add Shift</a>
+          <a class="pages__links" href="../pages/profile.html">Edit Profile</a>
+        </div>
+        <img src="../../assets/logo.png" alt="" />
+        <div>
+          <span class="username__message">Hello - </span>
+          <span class="username__message" id="hello__username">Username</span>
+          <a class="pages__links" href="../index.html" id="log__out">Log out</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="profile__section__display">
+      <div class="container__register__login mobile__form__width">
+        <h3>Account info</h3>
+        <form action="" method="">
+          <div>
+            <label for="fname"> Edit first name</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="text"
+              name="fname"
+              placeholder="type here..."
+              id="fname"
+            />
+          </div>
+          <span id="fname__error" class="small__font"></span>
+          <div>
+            <label for="lname"> Edit last name</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="text"
+              name="lname"
+              placeholder="type here..."
+              id="lname"
+            />
+          </div>
+          <span id="lname__error" class="small__font"></span>
+
+          <div>
+            <label for="email">Edit email</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="type here..."
+            />
+          </div>
+          <span id="email__error" class="small__font"></span>
+
+          <div>
+            <label for="username">Edit username</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="text"
+              name="username"
+              placeholder="type here..."
+              id="username"
+            />
+          </div>
+          <span id="username__error" class="small__font"></span>
+
+          <div>
+            <label for="pwd">Edit password</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="password"
+              name="pwd"
+              id="pwd"
+              placeholder="type here..."
+            />
+          </div>
+          <span id="pwd__error" class="small__font"></span>
+
+          <div>
+            <label for="age">Edit age</label>
+            <input
+              class="container__text__inputs my__gradient inputs_width"
+              type="text"
+              name="age"
+              placeholder="type here..."
+              id="age"
+            />
+          </div>
+          <span id="age__error" class="small__font"></span>
+
+          <input
+            class="container__register__login__input__btn"
+            type="button"
+            value="Update"
+            id="update"
+          />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&#169;2023 MyShifts</p>
+    </footer>
+  </body>
+</html>

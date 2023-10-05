@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px) {
+  .mobile__form__width {
+    max-width: 320px;
+  }
+  .inputs_width {
+    max-width: 95%;
+  }
+  .registration__mesage {
+    text-align: center;
+  }
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+  .shifts__table {
+    font-size: xx-small;
+  }
+  .search__button {
+    margin-top: 10px;
+  }
+}

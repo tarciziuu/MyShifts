@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - MyShifts</title>
+    <link rel="icon" href="../../assets/logo.png" />
+    <link rel="stylesheet" href="../../styles/utilities.css" />
+    <link rel="stylesheet" href="../../styles/mobile.css" />
+    <script src="../../code/register.js" defer></script>
+  </head>
+  <body class="body__register__login__defaults small__font">
+    <div
+      class="container__register__login registration__form__size mobile__form__width"
+    >
+      <h1>Create your account</h1>
+      <h3 class="registration__mesage">
+        We are happy to see that you want to join us!
+      </h3>
+      <form action="" method="">
+        <div>
+          <label for="fname"> First name</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="text"
+            name="fname"
+            placeholder="type here..."
+            id="fname"
+          />
+        </div>
+        <span id="fname__error"></span>
+        <div>
+          <label for="lname"> Last name</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="text"
+            name="lname"
+            placeholder="type here..."
+            id="lname"
+          />
+        </div>
+        <span id="lname__error"></span>
+
+        <div>
+          <label for="email">Your email</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="type here..."
+          />
+        </div>
+        <span id="email__error"></span>
+
+        <div>
+          <label for="username">Choose your username</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="text"
+            name="username"
+            placeholder="type here..."
+            id="username"
+          />
+        </div>
+        <span id="username__error"></span>
+
+        <div>
+          <label for="pwd">Choose your password</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="password"
+            name="pwd"
+            id="pwd"
+            placeholder="type here..."
+          />
+        </div>
+        <span id="pwd__error"></span>
+
+        <div>
+          <label for="age">Enter your age</label>
+          <input
+            class="container__text__inputs inputs_width"
+            type="text"
+            name="age"
+            placeholder="type here..."
+            id="age"
+          />
+        </div>
+        <span id="age__error"></span>
+
+        <input
+          class="container__register__login__input__btn"
+          type="button"
+          value="REGISTER"
+          id="register"
+        />
+      </form>
+      <p>Already a member? <a href="../index.html">Log in</a></p>
+    </div>
+  </body>
+</html>

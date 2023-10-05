@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Shift</title>
+    <link rel="icon" href="../../assets/logo.png" />
+    <link rel="stylesheet" href="../../styles/addshift.css" />
+    <link rel="stylesheet" href="../../styles/utilities.css" />
+    <link rel="stylesheet" href="../../styles/mobile.css" />
+
+    <script src="../../code/addshift.js" defer></script>
+  </head>
+  <body class="body__pages_default">
+    <div id="loading"></div>
+
+    <header>
+      <nav class="navbar">
+        <div>
+          <a class="pages__links" href="../pages/home.html">My Shifts</a>
+          <a class="pages__links" href="../pages/addshift.html">Add Shift</a>
+          <a class="pages__links" href="../pages/profile.html">Edit Profile</a>
+        </div>
+        <img src="../../assets/logo.png" alt="" />
+        <div>
+          <span class="username__message">Hello - </span>
+          <span class="username__message" id="hello__username">Username</span>
+          <a class="pages__links" href="../index.html" id="log__out">Log out</a>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <form action="" class="mobile__form__width">
+        <label for="shift__name">Shift name</label>
+        <input
+          class="container__text__inputs my__gradient inputs_width"
+          type="text"
+          name="shift__name"
+          placeholder="type here..."
+          id="shift__name"
+        />
+        <p id="shift__name__error"></p>
+        <label for="date">Date</label>
+        <input
+          class="container__text__inputs my__gradient inputs_width"
+          type="date"
+          name="date"
+          id="shift__date"
+        />
+        <label for="start">Start time</label>
+        <input
+          class="container__text__inputs my__gradient inputs_width"
+          type="time"
+          name="start"
+          id="shift_start"
+        />
+        <label for="end">End time</label>
+        <input
+          class="container__text__inputs my__gradient inputs_width"
+          type="time"
+          name="end"
+          id="shift_end"
+        />
+        <label for="wage">Hourly wage</label>
+        <input
+          class="container__text__inputs my__gradient inputs_width"
+          type="text"
+          name="wage"
+          placeholder="type here..."
+          id="shift__wage"
+        />
+        <label for="workplace">Workplace</label>
+        <select
+          class="container__text__inputs my__gradient inputs_width"
+          name="workplace"
+          id="workplace"
+        >
+          <option value="Wawiwa">Wawiwa</option>
+          <option value="Azoria">Azoria</option>
+          <option value="NewTech">NewTech</option>
+        </select>
+        <textarea
+          class="my__gradient add__shift__textarea"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Leave a comment here..."
+        ></textarea>
+
+        <input
+          class="container__register__login__input__btn"
+          type="button"
+          value="Add Shift"
+          id="add__shift"
+        />
+      </form>
+    </section>
+
+    <footer>
+      <p>&#169;2023 MyShifts</p>
+    </footer>
+  </body>
+</html>

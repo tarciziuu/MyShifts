@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - MyShifts</title>
+    <link rel="icon" href="../../assets/logo.png" />
+    <link rel="stylesheet" href="../../styles/utilities.css" />
+    <link rel="stylesheet" href="../../styles/home.css" />
+    <link rel="stylesheet" href="../../styles/mobile.css" />
+    <script src="../../code/home.js" defer></script>
+  </head>
+  <body class="body__pages_default">
+    <header>
+      <nav class="navbar">
+        <div>
+          <a class="pages__links" href="../pages/home.html">My Shifts</a>
+          <a class="pages__links" href="../pages/addshift.html">Add Shift</a>
+          <a class="pages__links" href="../pages/profile.html">Edit Profile</a>
+        </div>
+        <img src="../../assets/logo.png" alt="" />
+        <div>
+          <span class="username__message">Hello - </span>
+          <span class="username__message" id="hello__username">Username</span>
+          <a class="pages__links" href="../index.html" id="log__out">Log out</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section__one">
+      <input
+        class="container__text__inputs"
+        type="text"
+        placeholder="Shift name"
+        id="shift__name__search"
+      />
+      <input
+        class="search__button"
+        type="button"
+        value="Search by name"
+        id="shift__search__name"
+      />
+      <input
+        class="container__text__inputs"
+        type="date"
+        name=""
+        id="shift__search__from"
+      />
+      <input
+        class="container__text__inputs"
+        type="date"
+        name=""
+        id="shift__search__to"
+      />
+
+      <input
+        class="search__button"
+        type="button"
+        value="Search from date to date"
+        id="shift__search__date"
+      />
+    </section>
+
+    <section class="section__two">
+      <table class="shifts__table">
+        <thead>
+          <tr>
+            <th class="top__left">Shift name</th>
+            <th>Date</th>
+            <th>Start time</th>
+            <th>End time</th>
+            <th>Hourly wage</th>
+            <th>Workplace</th>
+            <th class="top__right">Profit</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <th class="bottom__left">Highest earnings</th>
+            <th id="best__month"></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th id="best__profit" class="bottom__right"></th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <footer>
+      <p>&#169;2023 MyShifts</p>
+    </footer>
+  </body>
+</html>
