@@ -23,12 +23,12 @@ After registering an account and logging in, users can:
 
 ## Screenshots
 
-![Registration page](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/register.png)
-![Login](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/login.png)
-![userShifts](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/myShifts.png)
-![filterName](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/filterName.png)
-![filterDate](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/DateToDate.png)
-![addShift](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/addShift.png)
-![editProfile](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/editProfile.png)
+![Registration page](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/register.png)
+![Login](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/login.png)
+![userShifts](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/myShifts.png)
+![filterName](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/filterName.png)
+![filterDate](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/DateToDate.png)
+![addShift](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/addShift.png)
+![editProfile](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/editProfile.png)
 
 
