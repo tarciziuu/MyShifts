@@ -23,5 +23,12 @@ After registering an account and logging in, users can:
 
 ## Screenshots
 
-![Registration page](<img width="1404" alt="register" src="https://github.com/tarciziuu/MyShifts/assets/123942393/01065e22-b091-469e-a7e1-150526f5420d">)
-![Login](<img width="1461" alt="login" src="https://github.com/tarciziuu/MyShifts/assets/123942393/b5aa76dc-5ae1-4507-a359-ee1c406df085">)
+![Registration page](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/register.png)
+![Login](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/login.png)
+![userShifts](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/myShifts.png)
+![filterName](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/filterName.png)
+![filterDate](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/DateToDate.png)
+![addShift](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/addShift.png)
+![editProfile](https://github.com/tarciziuu/MyShifts/releases/download/untagged-f73083b7db05ffe9827c/editProfile.png)
+
+
