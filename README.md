@@ -23,12 +23,25 @@ After registering an account and logging in, users can:
 
 ## Screenshots
 
+### Registration
 ![Registration page](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/register.png)
+
+### Login
 ![Login](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/login.png)
+
+### User's Shifts
 ![userShifts](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/myShifts.png)
+
+### User's Shifts Filtered By Name
 ![filterName](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/filterName.png)
+
+### User's Shifts Filtered By Date
 ![filterDate](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/DateToDate.png)
+
+### Add Shift
 ![addShift](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/addShift.png)
+
+### Edit Profile
 ![editProfile](https://github.com/tarciziuu/MyShifts/releases/download/v1.0/editProfile.png)
 
 
